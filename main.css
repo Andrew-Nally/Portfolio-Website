@@ -1,0 +1,230 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background:#3b3b3b;
+    height:100vh;
+    margin:2%;
+    padding:2%;
+    overflow-x:hidden;
+    color:#fff;
+    font-family:'Roboto', sans-serif;
+}
+header{
+    margin-top:0%;
+
+}
+.header_bg{
+    font-family:'Monoton', sans-serif;
+    color:#fff;
+    font-size:10rem;
+    position:absolute;
+    margin:0 auto;   
+    opacity:8%;
+
+}
+#normal-hello .header_bg{
+    position:relative;
+    margin-top:0px;    
+    opacity:5%;
+    margin:0 auto;
+
+}
+
+#mirror-hello{
+    position:absolute;
+    margin-top:25%;
+    transform:rotateY(180deg);
+    opacity:20%;
+
+}
+
+.header{
+    position:relative;
+    top:50%;
+}
+
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  .pic-background{
+      height:200px;
+      width:700px;
+      background:black;
+      margin-bottom:39px;
+  }
+  .pic-background2{
+    height:200px;
+    width:700px;
+    background:#fff;
+    opacity:25%;
+}
+  #profile-pic{
+      height:550px;
+      border:solid #000 20px;
+      border-radius:50%;
+      position:relative;
+      top:5%;
+      left:15%;
+      background:black;
+  }
+  .header {
+    display:flex;
+    background-color: #ffffff;
+    color: #3b3b3b;
+    margin-top:-45%;
+    font-weight:300px;
+    font-size: 1.25rem;
+    Height:auto;
+    width: 90%;
+    margin-left: 7%;
+    text-align:center;
+    border:solid #000 20px;
+    border-radius:5px;
+    justify-content: center;
+    font-family:'Monoton';
+    letter-spacing:5px;
+    
+  }
+  .header2{
+      background-color: #000;
+      border:20px solid white;
+      position:relative;
+      color:#fff;
+      font-size: 1.25rem;
+      margin-top:50%;
+      text-align:center;
+      width: 55%;
+      margin-left: 20%;
+      z-index:1000;
+      height:15%;
+      border-radius:5px;
+      font-family: 'Lobster', sans-serif;
+
+    }
+
+  .tech-banner{
+      margin-top:8%;
+      margin-bottom:8%;
+      width:90vw;
+      height:3vh;
+      object-fit:cover;
+  }
+  .menu{
+      width:90vw;
+  }
+  .menu ul {
+    list-style-type: none;
+    margin-left:10%;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    
+  }
+  
+  .menu li {
+    padding: 8px;
+    width:100%;
+    margin-bottom:15px;
+    background-color: #fff;
+    border-radius:5px;
+    text-align:center;
+    color: #000;
+    font-size: 1.25rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+    font-family: 'Lobster', sans-serif;
+    font-weight:200;
+    letter-spacing:5px;
+    transition:.5s;
+    width:auto;
+  }
+  
+  .aside {
+    background-color: #707070be;
+    padding:2%;
+    color: #ffffff;
+    border:20px solid black;
+    text-align: left;
+    font-size: 14px;
+    width:700px;
+    margin-bottom:35%;
+    margin-top:25%;
+    text-align:center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  .form-input{
+      width:500px;
+      height:25px;
+      margin:3%;
+  }
+.about, .aside, .social-icons{
+    position:relative;
+    margin-top:10%;
+    height:50vh;
+    width:90vw;
+    border:solid black 20px;
+    font-size:1.3rem;
+    margin-left:2%;
+    text-align:justify;
+    padding:2%;
+}
+  .icons{
+      font-size:5rem;
+      margin:2%;
+      color:rgb(43, 43, 43);
+  }
+  .icons:hover{
+    font-size:5rem;
+    margin:2%;
+    color:rgb(233, 233, 233);
+    cursor: pointer;
+}
+.social-icons{
+    height:300px;
+    width:500px;
+    text-align:center;
+    margin:10% auto;
+}
+
+  .footer {
+    background-color: #7c7c7c;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    width:90vw;
+    margin-top:30%;
+  }
+  
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
