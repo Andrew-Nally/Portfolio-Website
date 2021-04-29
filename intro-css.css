@@ -1,3 +1,4 @@
+
 :root {
   --red-color:#a72424;
   --orange-color: #e45e3d;
@@ -8,6 +9,8 @@
   --dark-blue-color: #3b4fa5;
   --pink-color:rgb(248, 6, 167);
 }
+
+
 .navbar-body {
     margin: 0;
     height: 100vh;
@@ -131,7 +134,7 @@
 
 }
 
-.x8{
+.navbar{
   -webkit-animation: floatUp 4.7s infinite linear;
   -moz-animation: floatUp 4.7s infinite linear;
   -o-animation: floatUp 4.7s infinite linear;
@@ -145,7 +148,7 @@
 
 }
 
-.x9{
+{
   -webkit-animation: floatUp 4.1s infinite linear;
   -moz-animation: floatUp 4.1s infinite linear;
   -o-animation: floatUp 4.1s infinite linear;
@@ -350,5 +353,3 @@ button:focus{
 }
 
 
-
-Resources

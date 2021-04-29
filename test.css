@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+html{
+    overflow: hidden;
+}
+
+.intro-bg{
+    background:url(/Portfolio-Website/bg-image.jpg)no-repeat center;
+    height:100vh;
+    width:100vw;
+    position:absolute;
+    overflow:hidden;
+    box-shadow:0px 2px 20px 0px #000;
+    border-radius:10px;
+    opacity:.4;
+    background-size:cover;
+}
+.intro-bg2{
+    background:url(/Portfolio-Website/bg-image2.jpg)no-repeat right;
+    width:100vw;
+    height:100vh;
+    z-index:-10;
+    position:relative;
+    background-size:cover;
+    margin-right:50%;
+    border-radius:5px;
+}
+
+
+.navbar{
+    z-index:1000;
+    border:solid red 5px;
+    color:#fff;
+    background:#fff;
+    height:10%;
+    display:flex;
+}
+
+.intro-title{
+    margin:0 auto;
+
+}

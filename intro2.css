@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap");
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  -webkit-animation: mainFadeIn 2s forwards;
+  -o-animation: mainFadeIn 2s forwards;
+  animation: mainFadeIn 2s forwards;
+  animation-delay: 1.6s;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-list li a {
+  color: gray;
+  font-family: "lato";
+  font-weight: 300;
+  text-transform: uppercase;
+  justify-content: space-between;
+  margin-bottom: 90%;
+}
+
+.nav-list li {
+  margin: 0 15%;
+  list-style-type: none;
+}
+
+.intro-container {
+  width: 50vw;
+  height: 100vh;
+  background: #232323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-container .box {
+  width: 358px;
+  height: 550px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50%;
+}
+.intro-container .intro-title {
+  width: 100%;
+  display: flex;
+  position: relative;
+  height: 50px;
+  margin-left: 68%;
+}
+.intro-container .intro-title .block {
+  width: 0%;
+  height: 1vh;
+  background: #d40606;
+  position: absolute;
+  animation: mainBlock 2s cubic-bezier(0.05, 0.06, 0.04, 0.92) forwards;
+  display: flex;
+  margin-left: -32%;
+}
+.intro-container .intro-title .lname {
+  color: var(--dark-color);
+  letter-spacing: 25px;
+}
+.intro-container .intro-title .intro-h1 {
+  font-family: "Poppins";
+  color: #fff;
+  font-size: 7.5vw;
+  -webkit-animation: mainFadeIn 2s forwards;
+  -o-animation: mainFadeIn 2s forwards;
+  animation: mainFadeIn 2s forwards;
+  animation-delay: 1.6s;
+  opacity: 0;
+  display: flex;
+  align-items: baseline;
+  position: fixed;
+  letter-spacing: 20px;
+  margin-left: -19.5%;
+}
+.intro-container .intro-title .dark-text {
+  color: var(--dark-color);
+}
+
+@keyframes mainBlock {
+  0% {
+    width: 0%;
+    left: 0;
+  }
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+@keyframes mainFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.social-media-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media {
+  position: fixed;
+}
+
+.fa-facebook-f {
+  font-size: 22px;
+  animation: mainFadeIn 2s forwards;
+  animation-delay: 3.5s;
+  color: #ffffff8c;
+  opacity: 0;
+}
+
+.fa-github-alt {
+  font-size: 22px;
+  animation: mainFadeIn 2s forwards;
+  animation-delay: 4s;
+  color: #ffffff8c;
+  opacity: 0;
+}
+
+.fa-linkedin-in {
+  font-size: 22px;
+  animation: mainFadeIn 2s forwards;
+  animation-delay: 4.5s;
+  color: #ffffff8c;
+  opacity: 0;
+}
+
+.fa-envelope {
+  font-size: 22px;
+  animation: mainFadeIn 2s forwards;
+  animation-delay: 5s;
+  color: #ffffff8c;
+  opacity: 0;
+}
+
+.social-media {
+  position: relative;
+  bottom: -25%;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 2.8rem;
+  color: rgba(143, 140, 140, 0.61);
+}
+
+@media only screen and (min-width: 300px) {
+  .intro-hi {
+    margin-left: -50%;
+  }
+}
+@media only screen and (min-width: 790px) {
+  .navbar li a {
+    font-size: 1.75vh;
+  }
+
+  .intro-h1 {
+    font-size: 7vh;
+    margin-top: -8%;
+  }
+}
+
+/*# sourceMappingURL=intro2.css.map */
